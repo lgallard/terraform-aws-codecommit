@@ -1,6 +1,6 @@
 ![Terraform](https://lgallardo.com/images/terraform.jpg)
 # terraform-aws-codecommit
-Terraform module to crear [AWS CodeCommit](https://aws.amazon.com/codecommit/) repositories. AWS CodeCommit is a fully-managed source control service that hosts secure Git-based repositories.
+Terraform module to create [AWS CodeCommit](https://aws.amazon.com/codecommit/) repositories. AWS CodeCommit is a fully-managed source control service that hosts secure Git-based repositories.
 
 ## Usage
 
