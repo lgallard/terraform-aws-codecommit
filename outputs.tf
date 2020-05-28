@@ -17,3 +17,8 @@ output "clone_url_ssh" {
   description = "The URL to use for cloning the repository over SSH."
   value       = aws_codecommit_repository.repo.clone_url_ssh
 }
+
+output "name" {
+  description = "The name for the repository"
+  value       = aws_codecommit_repository.repo.name
+}
