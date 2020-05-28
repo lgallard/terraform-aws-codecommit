@@ -87,8 +87,8 @@ module "codecommit" {
 | arn | The ARN of the repository |
 | clone\_url\_http | The URL to use for cloning the repository over HTTPS. |
 | clone\_url\_ssh | The URL to use for cloning the repository over SSH. |
+| name | The name for the repository |
 | repository\_id | The ID of the repository |
-
 
 ## Known issues
 During the developing of the module I found an issue when trying to create several triggers for a repository. This is an issue reported inr the AWS provider at [Multiple codecommit triggers](https://github.com/terraform-providers/terraform-provider-aws/issues/3209)
