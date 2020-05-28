@@ -1,3 +1,9 @@
+## 0.2.1 (May 28, 2020)
+
+FIX:
+
+  * Fix return value for repo name
+  
 ## 0.2.0 (May 28, 2020)
 
 ENHANCEMENTS:
