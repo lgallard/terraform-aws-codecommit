@@ -1,5 +1,13 @@
 ![Terraform](https://lgallardo.com/images/terraform.jpg)
 # terraform-aws-codecommit
+
+> [!IMPORTANT]
+> **This module is deprecated and will be archived.**
+>
+> AWS CodeCommit is no longer available to new AWS customers. Existing AWS CodeCommit customers can continue to use the service as normal, so this repository remains available as a reference for existing users. See the [AWS CodeCommit availability notice](https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-codecommit-repository.html) and AWS's [migration guidance for moving CodeCommit repositories to another Git provider](https://aws.amazon.com/blogs/devops/how-to-migrate-your-aws-codecommit-repository-to-another-git-provider/).
+>
+> New projects should use another Git provider such as GitHub, GitLab, Bitbucket, or AWS-supported third-party integrations instead of starting new CodeCommit-based infrastructure.
+
 Terraform module to create [AWS CodeCommit](https://aws.amazon.com/codecommit/) repositories. AWS CodeCommit is a fully-managed source control service that hosts secure Git-based repositories.
 
 ## Usage
